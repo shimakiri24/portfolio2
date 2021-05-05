@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    
+    <title>これはテスト用です</title>
+  </head>
+  <body class="bg-light">
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Bootstrap</a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="column">column</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Flex">Flex</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link z text-white" href="tab">tab</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link z text-white" href="Embeds">Embeds</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link z text-white" href="modal">modal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link z text-white" href="card">card</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link z text-white" href="accordion">accordion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link z text-white" href="contactform">contactform</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- スライドショー -->
+    <div class="kyevisual"> 
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>HTML/CSS</h5>
+              <p>HTML/CSSについて学べます </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img7.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>bootstrap</h5>
+              <p>bootstrapについて学べます</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img13.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>プログラミング</h5>
+              <p>プログラミングについて学べます</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- bootstrapの特徴 -->
+    <div class="container bg-white py-5 my-5">
+      <!-- bootstrapの特徴 -->
+      <div id="column"> 
+        <h2 class="text-center py-3 m-5">bootstrapの特徴</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <img class="img-fluid" src="img/img16.jpg" alt="">
+        </div>
+        <div class="col-md-4 col-12">
+          <img class="img-fluid" src="img/img17.jpg" alt="">
+        </div>
+        <div class="col-md-4 col-12">
+          <img class="img-fluid" src="img/img18.jpg" alt="">
+        </div>
+      </div>
+      <!-- お客様の声 -->
+      <div>
+        <div id="Flex"> 
+          <h2 class="text-center py-3 m-5">お客様の声</h2>
+        </div>
+        <div class="d-flex flex-wrap-reverse justify-content-center">
+          <div class="col-md-6 col-12 p-0 align-self-center h3 p-4">
+            テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+          </div>
+          <div class="col-md-6 col-12 p-0">
+            <img class="img-fluid" src="img/img4.jpg" alt="">
+          </div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="col-md-6 col-12 p-0">
+            <img class="img-fluid" src="img/img20.jpg" alt="">
+          </div>
+          <div class="col-md-6 col-12 p-0 align-self-center h3 p-4">
+            テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+          </div>
+        </div>
+      </div>
+      <!-- bootstrapのタブ -->
+      <div id="tab"> 
+        <h2 class="text-center py-3 m-5">bootstrapタブ</h2>
+      </div>
+      <div class="tab">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item col-4 p-0" role="presentation">
+            <a class="nav-link active text-center" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">グリッドシステム</a>
+          </li>
+          <li class="nav-item col-4 p-0" role="presentation">
+            <a class="nav-link text-center" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">OOCSS</a>
+          </li>
+          <li class="nav-item col-4 p-0" role="presentation">
+            <a class="nav-link text-center" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">豊富なコンポーネント</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="col-md-8 col-12 my-5 mx-auto">
+              Bootstrapでは横幅を１２個の列に分けたグリッドシステムを採用したデザインになっています。 １２は２,3,4,6で割り切れるのでレスポンシブデザインが用意になっています
+            </div> 
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="col-md-8 col-12 my-5 mx-auto">
+              BootStrapではOOCSS（Object-Oriented CSS）というオブジェクト指向CSSが採用されています。 構造と見た目を切り離した設計になります。
+            </div>
+          </div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="col-md-8 col-12 my-5 mx-auto">
+              このサイトでも使われているようにBootstrapでは様々なコンポーネントが用意されています。 公式サイトで調べながら使いながら慣れていきましょう
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- YouTube -->
+      <div id="Embeds"> 
+        <h2 class="text-center py-3 m-5">YouTube</h2>
+      </div>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+      </div>
+
+      <!-- よくある質問 -->
+      <div id="modal"> 
+        <h2 class="text-center py-3 m-5">よくある質問</h2>
+      </div>
+      <div class="row">
+        <!-- Button trigger modal -->
+        <!-- Modal 1-->
+        <div class="col-6 pt-3">
+          <div class="text-dark border p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            何ヶ月ぐらい勉強すれば稼げるようになりますか？
+          </div>
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">何ヶ月ぐらい勉強すれば稼げるようになりますか？</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="col-6 pt-3">
+          <div class="text-dark border p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+            WEB制作で必要なスキルは？
+          </div>
+          <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">WEB制作で必要なスキルは？</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="col-6 pt-3">
+          <div class="text-dark border p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+            おすすめのPCはありますか？
+          </div>
+          <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">おすすめのPCはありますか？</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="col-6 pt-3">
+          <div class="text-dark border p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+            プログラミングは独学で勉強可能ですか？
+          </div>
+          <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">プログラミングは独学で勉強可能ですか？</h5>
+                  
+                </div>
+                <div class="modal-body">
+                  テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 実績 -->
+      <div id="card"> 
+        <h2 class="text-center py-3 m-5">実績</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <div class="card">
+            <img src="img/img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Amazon Kindle</h5>
+              <p class="card-text">テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
+              <a href="#" class="btn btn-primary">Amazonで見る</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card" >
+            <img src="img/img10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">YouTube</h5>
+              <p class="card-text">テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
+              <a href="#" class="btn btn-primary">YouTubeを見る</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card">
+            <img src="img/img8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Twitter</h5>
+              <p class="card-text">テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
+              <a href="#" class="btn btn-primary">Twitterを見る</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- よくある質問 -->
+      <div id="accordion"> 
+        <h2 class="text-center py-3 m-5">よくある質問</h2>
+      </div>
+      <div >
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                プログラミングスキルは必要ですか？
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                稼げるようになりますか？
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                追加でかかる費用はありますか？
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- お問い合わせ -->
+      <div id="accordion"> 
+        <h2 class="text-center py-3 m-5">お問い合わせ</h2>
+      </div>
+      <div class="form-row">
+        <form class="row g-3 needs-validation col-8 mx-auto" novalidate>
+          <div class="col-12">
+            <label for="validationCustom01" class="form-label">氏名</label>
+            <input type="text" class="form-control" id="validationCustom01"  required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              氏名を入力してください
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="validationCustom04" class="form-label">都道府県</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">選択してください</option>
+              <option>北海道</option>
+              <option>東京</option>
+              <option>愛知</option>
+              <option>大阪</option>
+            </select>
+            <div class="invalid-feedback">
+              都道府県を選択してください
+            </div>
+          </div>
+          <div class="col-12">
+            <label for="validationCustom03" class="form-label">住所</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              住所を入力してください
+            </div>
+          </div>
+          
+          <div class="col-12">
+            <label for="validationCustomUsername" class="form-label">メールアドレス</label>
+            <div class="input-group has-validation">
+             
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                メールアドレスを入力してください
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                同意する
+              </label>
+              <div class="invalid-feedback">
+                同意するにチェックを入れてください
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">送信</button>
+          </div>
+        </form>
+        <script>
+          // Example starter JavaScript for disabling form submissions if there are invalid fields
+          (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+              .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                  if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                  }
+
+                  form.classList.add('was-validated')
+                }, false)
+              })
+          })()
+        </script>
+      </div>
+    </div>
+    
+    <footer class="bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="py-4">
+              <h4 class="d-inline-block py-3 border-bottom border-info">Profile</h4>
+            </div>
+            <div class="mx-5">
+              <img class="img-fluid rounded-circle" src="img/img9.jpg" alt="">
+            </div>
+            <p>
+              テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。
+            </p>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="py-4">
+              <h4 class="d-inline-block py-3 border-bottom border-info">Portfolio</h4>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="YouTube Channel">YouTube Channel</a></li>
+              <li class="list-group-item"><a href="Portfolio Site">Portfolio Site
+              </a></li>
+              <li class="list-group-item"><a href="Amazon">Amazon</a></li>
+              <li class="list-group-item"><a href="Twitter">Twitter</a></li>
+            </ul>
+            
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="py-4">
+              <h4 class="d-inline-block py-3 border-bottom border-info">Twitter</h4>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark text-white text-center p-3">
+        <p>Copyright - tomoki shimomura, 2020 All Rights Reserved.</p>
+      </div>
+    </footer>
+   
+ 
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+   
+
+    
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+
+    
+
+    
+  </body>
+</html>
